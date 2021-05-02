@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navi_main"
+    app:startDestination="@id/fragmentMain">
+
+    <fixFragment
+        android:id="@+id/fragmentMain"
+        android:name="com.example.fixnavigationdemo.FragmentMain"
+        android:label="FragmentMain" />
+    <fixFragment
+        android:id="@+id/fragmentA"
+        android:name="com.example.modulea.FragmentA"
+        android:label="FragmentA" />
+    <fixFragment
+        android:id="@+id/fragmentB"
+        android:name="com.example.moduleb.FragmentB"
+        android:label="FragmentB" />
+
+</navigation>

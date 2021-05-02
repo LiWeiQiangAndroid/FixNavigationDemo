@@ -1,0 +1,5 @@
+rootProject.name = "FixNavigationDemo"
+include ':app'
+include ':common'
+include ':moduleA'
+include ':moduleB'
